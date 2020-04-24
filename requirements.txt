@@ -1,0 +1,7 @@
+telebot==0.0.3
+blockchain==1.4.4
+pyTelegramBotAPI==3.6.7
+Telethon==1.10.10
+Flask==1.1.1
+gunicorn==20.0.4
+psycopg2==2.8.4
