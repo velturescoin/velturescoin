@@ -15,7 +15,7 @@ from time_for_users import *
 # главная функция, запускать ее и она подтягивает все, что выше импортировано
 
 
-TOKEN = '1031479245:AAGag0oGoMVrV8kv3-NIsyoEpF2tzTkRG4w' # Токен бота
+TOKEN = '' # Токен бота
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -95,9 +95,9 @@ MY_WALLET = '''
 
 def give_bonus(message): # функция выдачи бонуса
     if message.text == 'BTCBOTFOREVER': # если ввел нужное слово
-        conn = psycopg2.connect(dbname='d6e129ci6qleqc', user='zdiehcudprdhjd', 
-                        password='905e090c1222572e19d28cc8479ff71c3ac9f8286b32fd1da9dce1584ed97fbf', 
-                        host='ec2-54-152-175-141.compute-1.amazonaws.com',
+        conn = psycopg2.connect(dbname='', user='', 
+                        password='', 
+                        host='',
                         port=5432)
         curs = conn.cursor()
         curs.execute('SELECT bonus FROM users WHERE user_tg_id = {}'.format(message.from_user.id))
