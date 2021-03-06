@@ -15,7 +15,7 @@ from time_for_users import *
 # главная функция, запускать ее и она подтягивает все, что выше импортировано
 
 
-TOKEN = '' # Токен бота
+TOKEN = '1692381201:AAEqx2Jcw29j4OYSpzSvBmh8HAKUmYi1pzU' # Токен бота
 
 bot = telebot.TeleBot(TOKEN)
 
